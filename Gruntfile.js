@@ -87,7 +87,7 @@ module.exports = function (grunt) {
     connect:  {
       options:    {
         base: '<%= projectSettings.src %>',
-        port: grunt.option("port") || 8003,
+        port: grunt.option("port") || 3000,
         hostname: grunt.option("hostname") || 0.0.0.0
         livereload: 37830
       },
