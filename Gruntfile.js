@@ -88,7 +88,7 @@ module.exports = function (grunt) {
       options:    {
         base: '<%= projectSettings.src %>',
         port: grunt.option("port") || 3000,
-        hostname: grunt.option("hostname") || 0.0.0.0
+        hostname: grunt.option("hostname") || "0.0.0.0",
         livereload: 37830
       },
       livereload: {
